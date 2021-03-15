@@ -1,0 +1,166 @@
+.menu {
+    height: 100vh;
+    width: 300px;
+    background-color: #7C7C7C;
+    float: left;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh; 
+}
+
+.title{ 
+    width: 100%; 
+    height: 100px; 
+    background-color: #4A4A4A;
+}
+
+.menu .title .myphoto {
+    background: url('https://upload.cc/i1/2021/03/15/gyN72T.jpg') no-repeat;
+    background-size: 80px auto;
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    border-radius:50px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+
+.menu .link{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.menu .link div {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 10px 10px;
+}
+
+.menu .link .fb {
+    margin-left: 9vh;
+    background: url('https://i.pinimg.com/originals/19/8b/1d/198b1d0968b9a2d8a0f6c83a19ef5ab9.png') no-repeat;
+    background-size: auto 40px;
+}
+
+.menu .link .github {
+    background: url('https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png') no-repeat;
+    background-size: 40px auto;
+}
+
+.menu .link .twitter {
+    background: url('https://i.pinimg.com/originals/28/90/ba/2890bac9ba41e52707f36268231dfe9e.png') no-repeat;
+    background-size: 40px auto;
+}
+
+.menu .title span {
+    font-size: 2em;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 6vh;
+    position: absolute;
+}
+.menu ul li {
+    font-size: 1.3em;
+    font-width:300;
+    padding: 10px 30px;
+    color: #ffffff;
+}
+.menu ul li:hover {
+    background-color: #e29e9e;
+    color: #4a4a4a;
+}
+
+
+.content .banner {
+    background: url('https://upload.cc/i1/2021/03/15/pmShcL.jpg') 170px no-repeat;
+    width: 100%; 
+    height: 300px;  
+    background-size: cover; 
+}
+
+.content .news{ 
+    margin-left: 7vh;
+    margin-top: 5vh;
+    display: inline-block;
+  }
+
+
+.content .banner .myphoto {
+    background: url('https://upload.cc/i1/2021/03/15/gyN72T.jpg') no-repeat;
+    background-size: 150px auto;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    border-radius:150px; 
+    margin-right: 25px;
+}
+
+.content .banner div {
+    display: inline-block;  
+    color: #ffffff;
+    vertical-align: top;
+}
+
+.div{
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.banner .div h1{
+    font-size: 3em;
+    color: #4A4A4A;
+    font-weight: 1000;
+}
+
+.banner .div span{
+    font-size: 2em;
+    color:gray;
+    font-weight: 800;
+}
+
+.news .post-title{
+    font-size: 2em;
+    display: inline-block;  
+    margin-bottom: 6vh;
+    font-weight: 550;
+    color:palevioletred;
+} 
+
+.news ul li{
+    font-size: 1.3em;
+    margin-bottom: 2vh;
+    margin-left: 5vh;
+    font-style: italic;
+    color: gray;
+    text-decoration:underline;
+}
+
+.link-button {
+    color: blue;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size:30px;
+    text-align: center;
+    text-decoration: none;
+    border: solid 2px;
+    border-radius: 50px;
+    padding:5px;
+    position: absolute;
+    right: 20vh;
+    opacity: 0.5;
+    transition: 0.3s;
+
+  }
+
+  .link-button:hover {
+    opacity: 1;
+  }
